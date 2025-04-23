@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Gotom Golpwana</title>
+  <style>
+    body {
+      background-color: #dfe3e9;
+      margin: 0;
+      padding: 40px;
+    }
+    .profile {
+      background-color:white;
+      max-width: 800px;
+      margin: 15px auto;
+      padding: 45px;
+      border-radius: 12px;
+     
+    }
+    h1 {
+      color: black;
+    }
+    h2 {
+      color:brown;
+      margin-top: 10px;
+    }
+    p {
+      line-height: 1.6;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    // Create profile container
+    let profile = document.createElement('div');
+    profile.className = 'profile';
+
+    // Title
+    let title = document.createElement('h1');
+    title.textContent = 'Gotom Golpwana';
+
+    // Basic Info
+    let info = document.createElement('p');
+    info.textContent = 'My name is Gotom Golpwana  a 25-year-old programming student based in Jos City, Nigeria. i am currently studying at Blockfuse Labs, a tech hub known for empowering future developers.';
+
+    // Education
+    let educationTitle = document.createElement('h2');
+    educationTitle.textContent = 'Education & Skills';
+    let education = document.createElement('p');
+    education.textContent = 'I am gaining expertise in full-stack web development, with a strong focus on JavaScript, HTML, CSS, React, and backend technologies like Node.js. I am  also learning version control with Git and GitHub.';
+
+    // Interests
+    let interestsTitle = document.createElement('h2');
+    interestsTitle.textContent = 'Interests';
+    let interests = document.createElement('p');
+    interests.textContent = 'Apart from coding, i enjoys exploring new tech trends, contributing to open-source projects, and building innovative solutions. I am passionate about solving real-world problems through technology.';
+
+    // Vision
+    let visionTitle = document.createElement('h2');
+    visionTitle.textContent = 'Vision';
+    let vision = document.createElement('p');
+    vision.textContent = 'I aspires to become a top-tier software engineer and make significant contributions to the Nigeria/Afriva tech ecosystem. I believes in continuous learning and collaboration to grow as a developer.';
+
+    // Append all to the container
+    profile.appendChild(title);
+    profile.appendChild(info);
+    profile.appendChild(educationTitle);
+    profile.appendChild(education);
+    profile.appendChild(interestsTitle);
+    profile.appendChild(interests);
+    profile.appendChild(visionTitle);
+    profile.appendChild(vision);
+
+    // Add profile to the page
+    document.body.appendChild(profile);
+  </script>
+</body>
+</html>
